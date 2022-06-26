@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
-
-    export const load = ({session}) => {
+    import type {LoadEvent} from '@sveltejs/kit';
+    export const load = ({session}: LoadEvent) => {
         return {
             props: {
                 session,
