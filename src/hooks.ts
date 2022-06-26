@@ -1,4 +1,4 @@
-import type {GetSession, Handle, RequestEvent} from '@sveltejs/kit'
+import type {GetSession, Handle} from '@sveltejs/kit'
 
 export const handle: Handle = async ({event, resolve}) => {
 
