@@ -10,7 +10,6 @@
     }
 
 </script>
-
 <script lang="ts">
     export let session: string;
 </script>
